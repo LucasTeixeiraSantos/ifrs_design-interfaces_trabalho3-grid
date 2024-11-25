@@ -151,9 +151,8 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .destaques .livros, .galeria .produtos {
-    grid-template-columns: 1fr; /* Coluna única em telas menores */
+    grid-template-columns: 1fr; 
   }
 }
