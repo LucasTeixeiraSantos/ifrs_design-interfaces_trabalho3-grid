@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de livros IFDI BookStore">
+    <meta property="og:title" content="IFDI BookStore">
+    <meta property="og:description" content="Loja de livros e materiais para o seu aprendizado">
+    <meta property="og:image" content="img/logo_1_ifdi.png">
+    <meta property="og:url" content="https://www.ifdi-bookstore.com.br">
+    <meta name="twitter:title" content="IFDI BookStore">
+    <meta name="twitter:description" content="Loja de livros e materiais para o seu aprendizado">
+    <meta name="twitter:image" content="img/logo_1_ifdi.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>IFDI BookStore</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logo_1_ifdi.png" alt="Logo IFDI BookStore" class="logo">
+        <h1>IFDI BookStore</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Livros</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="destaques">
+            <h2>Destaques</h2>
+            <div class="livros">
+                <article class="livro">
+                    <img src="img/fp_1_clean-code.jpg" alt="Capa do livro Clean Code">
+                    <h3>Código Limpo (English Version)</h3>
+                    <p>Habilidades Práticas do Agile Software.</p>
+                </article>
+                <article class="livro">
+                    <img src="img/fp_2_spark-the-definitive-guide.jpg" alt="Capa do livro Spark: o guia definitivo">
+                    <h3>Spark: O guia definitivo (English Version)</h3>
+                    <p>O processamento de Big Data de forma simples.</p>
+                </article>
+                <article class="livro">
+                    <img src="img/fp_3_articulando_decisoes-de-design.jpg" alt="Capa do livro Articulando Decisões de Design">
+                    <h3>Articulando Decisões de Design</h3>
+                    <p>Converse com os stakeholders, mantenha sua sanidade, e crie a melhor Experiência do Usuário.</p>
+                </article>
+            </div>
+        </section>
+        <section class="galeria">
+            <h2>Galeria de Produtos</h2>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="img\fp_4_cracking-the-code-interview.jpg" alt="Produto 1">
+                    <p>Produto 1</p>
+                </div>
+                <div class="produto">
+                    <img src="img\fp_4_cracking-the-code-interview.jpg" alt="Produto 2">
+                    <p>Produto 2</p>
+                </div>
+                <div class="produto">
+                    <img src="img\fp_4_cracking-the-code-interview.jpg" alt="Produto 3">
+                    <p>Produto 3</p>
+                </div>
+                <div class="produto">
+                    <img src="img\fp_4_cracking-the-code-interview.jpg" alt="Produto 4">
+                    <p>Produto 4</p>
+                </div>
+                <div class="produto">
+                    <img src="img\fp_4_cracking-the-code-interview.jpg" alt="Produto 5">
+                    <p>Produto 5</p>
+                </div>
+                <div class="produto">
+                    <img src="img\fp_4_cracking-the-code-interview.jpg" alt="Produto 6">
+                    <p>Produto 6</p>
+                </div>
+            </div>
+        </section>
+        <section class="formulario">
+            <h2>Entre em Contato</h2>
+            <div class="formulario-container">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+
+                        <label for="data">Data de Nascimento:</label>
+                        <input type="date" id="data" name="data" required>
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+
+                        <label for="interesse">Interesse:</label>
+                        <select id="interesse" name="interesse">
+                            <option value="livros">Livros</option>
+                            <option value="servicos">Serviços</option>
+                            <option value="consultoria">Consultoria</option>
+                        </select>
+
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+          
+    </main>
+    <footer>
+        <p>&copy; 2024 IFDI BookStore</p>
+    </footer>
+</body>
+</html>
